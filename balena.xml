@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="freescale" fetch="https://github.com/Freescale/"/>
+	<remote name="balenaos" fetch="https://github.com/balena-os/"/>
+	<remote name="openembedded" fetch="https://github.com/openembedded/"/>
+	<remote name="rust" fetch="https://github.com/meta-rust/"/>
+	<remote name="poky" fetch="https://git.yoctoproject.org/git/poky"/>
+
+	<project name="balena-yocto-scripts.git" remote="balenaos" path="balena-yocto-scripts" revision="757ececb59fad3fbd3c0e76be4163e7bb94f4b7a"/>
+	<project name="meta-openembedded.git" path="layers/meta-openembedded" remote="openembedded" revision="4cd3a39f22a2712bfa8fc657d09fe2c7765a4005"/>
+	<project name="meta-rust.git" path="layers/meta-rust" remote="rust" revision="84710b341be53cc2af13ecc8ae87773cf84687bf"/>
+</manifest>
