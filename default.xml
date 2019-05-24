@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="balena.xml"/>
+
+  <default sync-j="8" revision="agonzal/warrior"/>
+  <remote name="alexgg" fetch="https://github.com/alexgg/"/>
+
+  <project name="balena-digi.git" path="." remote="alexgg"/>
+  <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="alexgg"/>
+  <project name="meta-balena.git" path="layers/meta-balena" remote="alexgg"/>
+</manifest>
